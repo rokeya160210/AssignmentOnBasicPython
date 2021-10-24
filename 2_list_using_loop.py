@@ -5,6 +5,4 @@ for i in numbers:
     elif i> 150:
         continue
     elif i% 5==0:
-        print (i,end="")
-    
-
+        print (str(i) + " ",end="")
